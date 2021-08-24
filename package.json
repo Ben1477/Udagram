@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1 updated for git testing",
     "clean": "rimraf www/ || true",
     "build": "npm run clean && tsc && cp package.json www/package.json && mkdir www/tmp/ && cd www && zip -r Archive.zip . && cd ..",
     "dev": "ts-node-dev --respawn --transpile-only ./src/server.ts"
@@ -33,3 +33,4 @@
     "rimraf": "^3.0.2"
   }
 }
+
